@@ -1,0 +1,24 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "News RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.9",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^6.2.1"
+  }
+}
